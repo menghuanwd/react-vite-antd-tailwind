@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import logo from './logo.svg'
 import './App.css'
+import { Col, DatePicker } from "antd";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +19,7 @@ function App() {
         <p>
           Edit <code>App.jsx</code> and save to test HMR updates.
         </p>
+
         <p>
           <a
             className="App-link"
@@ -38,6 +40,7 @@ function App() {
           </a>
         </p>
       </header>
+      <DatePicker />
     </div>
   )
 }
